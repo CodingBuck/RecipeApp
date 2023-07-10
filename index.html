@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!-- Coding by Darien Ford-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find a meal for your ingredients</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" 
+    crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="meal-wrapper">
+            <div class="meal-search">
+                <h2 class = "title">Find Meals For Your Ingredients</h2>
+                <blockquote>"What you feel like eating at any given moment is what you should have."<br>
+                    <cite>- Ferran Adria</cite>
+                </blockquote>
+
+                <div class = "meal-search-box">
+                    <input type = "text" class = "search-control" placeholder="Enter an ingredient" id = "search-input">
+                    <button type = "submit" class = "search-btn btn" id = "search-btn">
+                      <i class = "fas fa-search"></i>
+                    </button>
+            </div>
+        </div>
+
+        <div class = "meal-result">
+            <h2 class = "title">Your Search Results:</h2>
+        <div id= "meal">
+          <!-- meal item -->
+          <div class = "meal-item">
+            <div class = "meal-img">
+              <img src = "images/food4.jpeg" alt = "food">
+            </div>
+            <div class = "meal-name">
+                <h3>Tonkotsu Ramen</h3>
+                <a href = "#" class = "recipe-btn">Get Recipe</a>
+            </div>
+        </div>
+          <div id= "meal">
+            <!-- meal item 2 
+            <div class = "meal-item">
+              <div class = "meal-img">
+                <img src = "images/food3.jpg" alt = "food">
+              </div>
+              <div class = "meal-name">
+                  <h3>Tonkotsu Ramen</h3>
+                  <a href = "#" class = "recipe-btn">Get Recipe</a>
+              </div>
+            </div>
+          </div>
+          <div id= "meal">-->
+            <!-- meal item 3 
+            <div class = "meal-item">
+              <div class = "meal-img">
+                <img src = "images/food2.jpg" alt = "food">
+              </div>
+              <div class = "meal-name">
+                  <h3>Lamb Chops</h3>
+                  <a href = "#" class = "recipe-btn">Get Recipe</a>
+              </div>
+            </div>-->
+          </div>
+          </div>
+
+          <div class = "meal-details">
+            <button type = "button" class = "btn recipe-close-btn" id ="recipe-close-btn">
+              <i class = "fas fa-times"></i>
+            </button>
+
+            <!--meal content-->
+            <div class="meal-details-content">
+              <h2 class="recipe-title">Meals Name Here</h2>
+              <p class="recipe-category">Category Name</p>
+              <div class="recipe-instruct">
+                <h3>Instructions:</h3>
+                <p>Step 1
+                  For the Nitamago Eggs, bring 1.5 litres/quarts water to the boil in a medium-sized saucepan. Carefully lower the eggs into the boiling water with a slotted spoon to prevent them from breaking. Boil for exactly 7 minutes over a medium-high heat for the perfect soft egg yolks.
+                  Step 2
+                  Meanwhile, combine the soy sauce, mirin and dashi in a large resealable plastic bag to make a marinade for the eggs.
+                  Step 3
+                  When the eggs have ﬁnished boiling, immediately transfer to a bowl and run under cold water to quickly cool them down.
+                  Step 4
+                  When cooled, peel the eggs. Place the peeled eggs into the plastic bag with the marinade, making sure the eggs are immersed in the liquid. Dip the bag into a bowl of cold water to remove any air and seal immediately so it is almost vacuum packed. Refrigerate and let marinate for at least 20 minutes, or up to 2 days, turning the eggs a few times to ensure even marinating.
+                  Step 5
+                  For the char siu, roll the meat into a cylindrical shape and secure tightly with kitchen string. Transfer to a medium saucepan and cover with cold water. Add the ginger and leek, then bring to the boil. Reduce the heat, cover with a lid and simmer for 40 minutes.
+                  Step 6
+                  Remove the pork from the pan and set aside. Keep 2 cups of cooking water in the pan (discarding excess), then add the soy sauce, sake, mirin, brown sugar and rice vinegar. Return the pork to the pan, cover and cook over a low heat for 2 hours.
+                  Step 7
+                  Place the pork and sauce in a suitable container, ensuring it is covered with the sauce. Let cool, then refrigerate and marinate overnight. The pork will keep this way for up to 1 week until you are ready to serve. 
+                  Step 8
+                  For the pork stock, boil the bones in a large saucepan with 3 quarts of water for 10 minutes. Replace the cooking water with 3 quarts of fresh water. Add the onion, carrot, ginger and garlic to the bones, then bring back to the boil. Simmer gently, covered with a lid, for 8 hours for best results (6 hours minimum). Add roughly 2 quarts fresh water every 2 hours, when you see any of the bones uncovered, the stock should turn milky-white. Strain the stock using a ﬁne-mesh sieve/strainer and return to the pan over a low heat.
+                  Step 9
+                  Remove the char siu from the fridge. Remove the kitchen string (save the cooking liquid) and thinly slice the meat, ready to top the soup.
+                  Step 10
+                  To the pork stock in the pan, mix in the sea salt, ¼ cup char siu cooking, and light soy sauce. Bring the soup almost to the boil again to heat through.
+                </p>
+              </div>
+              <div class="recipe-meal-img">
+                <img src="images/food4.jpeg" alt="">
+              </div>
+              <div class="recipe-link">
+                <a href="#" target= "_blank">Watch Video</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
